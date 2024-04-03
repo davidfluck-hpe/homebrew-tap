@@ -11,24 +11,24 @@ class PachctlAT29 < Formula
   on_macos do
     on_arm do
       url "https://github.com/pachyderm/pachyderm/releases/download/v2.9.3/pachctl_2.9.3_darwin_arm64.zip"
-      sha256 "f76c1ad95d8295ccddc38ae90f73a7b5d3c36dd728e433221e425926b3d4a56f"
+      sha256 "6d1834cc627d503c88532cabd9b05ca4b6a48065c83054ad4ad8d3c4289901f4"
     end
 
     on_intel do
       url "https://github.com/pachyderm/pachyderm/releases/download/v2.9.3/pachctl_2.9.3_darwin_amd64.zip"
-      sha256 "b3f4ec26577529220ce7420dba7cf4b117aa29945f58dcf83f6163358e1ca8c6"
+      sha256 "c50837e45228cff53a09e95d37ff607b0132efd5bc252bbe359aa949df771114"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/pachyderm/pachyderm/releases/download/v2.9.3/pachctl_2.9.3_linux_arm64.zip"
-      sha256 "049cb11806f5870338ea9ca60bb49d2af3641d3a5da23e84cda5e12ebbeea545"
+      sha256 "0c3eaa94c7e95f8920c461ae75976e60d725d7fd9fb9d3b1a0a0f11912deb7d4"
     end
 
     on_intel do
       url "https://github.com/pachyderm/pachyderm/releases/download/v2.9.3/pachctl_2.9.3_linux_amd64.zip"
-      sha256 "6ce767700da2b334ce239377203c49d10486b2c435dd5ebfeb70e51a1368aeb7"
+      sha256 "b8321a27d03ad4813b731d9be045a79ab22ec3018037ecdb21a26de01139f5f8"
     end
   end
 
