@@ -22,12 +22,12 @@ class PachctlAT29 < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/pachyderm/pachyderm/releases/download/v2.9.3/pachctl_2.9.3_linux_arm64.zip"
+      url "https://github.com/pachyderm/pachyderm/releases/download/v2.9.3/pachctl_2.9.3_linux_arm64.tar.gz"
       sha256 "0c3eaa94c7e95f8920c461ae75976e60d725d7fd9fb9d3b1a0a0f11912deb7d4"
     end
 
     on_intel do
-      url "https://github.com/pachyderm/pachyderm/releases/download/v2.9.3/pachctl_2.9.3_linux_amd64.zip"
+      url "https://github.com/pachyderm/pachyderm/releases/download/v2.9.3/pachctl_2.9.3_linux_amd64.tar.gz"
       sha256 "b8321a27d03ad4813b731d9be045a79ab22ec3018037ecdb21a26de01139f5f8"
     end
   end
